@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent;
         switch (view.getId()) {
             case R.id.numbers:
-                intent = new Intent(this, NumberActivity.class);
+                intent = new Intent(this, NumbersActivity.class);
                 startActivity(intent);
                 break;
             case R.id.colors:
